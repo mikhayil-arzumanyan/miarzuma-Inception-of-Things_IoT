@@ -8,7 +8,11 @@ metadata:
   namespace: dev
   labels:
     app: will-playground
-spec:
+spec: 
+  replicas: 1
+  selector:
+    matchLabels:
+      app: will-playground
   replicas: 1
   selector:
     matchLabels:
