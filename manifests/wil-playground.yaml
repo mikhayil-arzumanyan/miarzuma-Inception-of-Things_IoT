@@ -9,8 +9,7 @@ metadata:
   labels:
     app: wil-playground
 spec: 
-  replicas: 2
-  revisionHistoryLimit: 3
+  replicas: 1
   selector:
     matchLabels:
       app: wil-playground
